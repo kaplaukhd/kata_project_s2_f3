@@ -13,8 +13,7 @@ public class UserDaoJDBCImpl implements UserDao {
     public UserDaoJDBCImpl() {
 
     }
-
-    private static final Connection connection = Util.connection();
+     private static final Connection connection = Util.connection();
 
     public void createUsersTable() {
         try (Statement statement = connection.createStatement()) {
