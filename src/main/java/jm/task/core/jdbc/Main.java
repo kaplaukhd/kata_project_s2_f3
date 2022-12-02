@@ -20,9 +20,9 @@ public class Main {
         for (User user : userList) {
             System.out.println(user);
         }
-//        userService.removeUserById(1);
-//        userService.cleanUsersTable();
-//        userService.dropUsersTable();
+        userService.removeUserById(1);
+        userService.cleanUsersTable();
+        userService.dropUsersTable();
 
     }
 }
